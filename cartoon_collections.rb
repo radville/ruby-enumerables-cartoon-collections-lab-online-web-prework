@@ -10,6 +10,8 @@ def summon_captain_planet(array)
   end
   array
 end
+array = ["one", "two", "three"]
+summon_captain_planet(array)
 
 def long_planeteer_calls# code an argument here
   # Your code here
