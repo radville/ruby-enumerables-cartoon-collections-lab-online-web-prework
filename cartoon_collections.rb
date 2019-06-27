@@ -23,8 +23,5 @@ def find_the_cheese(array)
   while i < array.length
    if array.any? { |x| cheese_types.include?(x) }
      return array[i]
-   else
-     i += 1
-   end
- end
+
 end
