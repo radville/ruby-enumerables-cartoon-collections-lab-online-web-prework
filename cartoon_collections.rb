@@ -6,9 +6,9 @@ end
 
 def summon_captain_planet(array)
   array.map do |n| 
-    puts "#{n.capitalize}!"
+    "#{n.capitalize}!"
   end
-  #array
+  puts array
 end
 array = ["one", "two", "three"]
 summon_captain_planet(array)
