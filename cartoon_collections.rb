@@ -22,4 +22,5 @@ def find_the_cheese(array)
   i = 0 
   if array.any? { |x| cheese_types.include?(x) }
     puts array(i)
+  end
 end
